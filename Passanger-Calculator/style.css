@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: #f7e2e2;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.info, .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 25px auto;
+}
+
+h1 {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+}
+
+#increment {
+    background-color:#06fa26
+}
+
+#decrement {
+    background-color:#fc3f06
+}
+
+#increment:hover {
+    background-color:#7bf78b
+}
+
+#decrement:hover {
+    background-color:#f18f71
+}
